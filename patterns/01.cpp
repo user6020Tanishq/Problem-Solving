@@ -2,8 +2,8 @@
 
 class Solution {
 public:
-    void pattern(){
-        for(int i = 0; i < 5; i++){
+    void pattern(int n){
+        for(int i = 0; i < n; i++){
             std::cout << "*****\n";
         }
     }
@@ -11,14 +11,15 @@ public:
 };
 
 int main() {
+    int n = 5;
     Solution a;
-    a.pattern();
+    a.pattern(n);
 
 }
 
 /*
 output-
-T.C- O(1)
+T.C- O(n*n)
 
 *****
 *****
