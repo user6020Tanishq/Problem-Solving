@@ -19,7 +19,7 @@ int main() {
 
 /*
 output-
-T.C- O(n*n)
+T.C- O(5*n)
 
 *****
 *****
