@@ -3,9 +3,8 @@ difficulty- easy
 question- return the index of the target in a given vector
 if not found return -1
 
-approach- recursively divide the vector into half by comparison of element at the mid index with
-the target element adjust the low and high pointer to point to either half
-with each iteration also comparing the target element with the mid element with each iteration 
+approach- recursively divide the vector into half by comparing the element at the mid index with
+the target element and adjusting the low and high pointer to point to either half
 
 T.C- O(logn)
 
