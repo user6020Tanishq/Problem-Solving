@@ -1,4 +1,5 @@
 /*
+difficulty- easy
 question- return the index of the target in a given vector
 if not found return -1
 
