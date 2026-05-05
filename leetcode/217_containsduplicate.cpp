@@ -1,20 +1,20 @@
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
-        for(int i = 0; i < nums.size(); i++){
-            for(int j = i + 1; j < nums.size(); j++){
-                if(nums[i] == nums[j]){
-                    return true;
-                }
-            }
-        }
-        return false;
+        unordered_set<int> s(nums.begin(),nums.end());
+        return nums.size() != s.size();
     }
 };
 
 /*
+Difficulty- Easy
+T.C- O(1)
 
-Difficulty - easy
+new approach-
+unordered set from cpp stl removes duplicates by using hash table and using O(n) extra space for constant time lookup for accessing and removal of duplicates
+
+so we compared the size of vector and set, if size reduced then the duplicates were removed 
+
 brute force approach-
 try each comparison starting from the first element-
 T.C-
