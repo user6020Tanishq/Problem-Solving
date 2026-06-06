@@ -1,3 +1,70 @@
-*.exe
-*.out
+# Java
+
+*.class
+*.log
+*.jar
+*.war
+*.ear
+# Crash logs
+hs_err_pid*
+replay_pid*
+
+
+# Rust
+
+
+/target/
+**/*.rs.bk
+Cargo.lock
+
+
+#  C++ & Go
+# Object files and libraries
 *.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Compiled Binaries and Outputs
+*.exe
+*.exe~
+*.test
+*.out
+*.app
+
+
+
+#  Python
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+
+#  JavaScript / Node.js
+
+
+node_modules/
+/dist/
+.npm
+package-lock.json
+
+
+#  Code Editors & OS (VS Code, Eclipse, Windows)
+
+.vscode/
+.project
+.classpath
+.settings/
+.DS_Store
+Thumbs.db
